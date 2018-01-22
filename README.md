@@ -1,8 +1,5 @@
 # Networked QRCode Pairing
 
-Supposed you want to have game on mobile with people 
-
-
 It all started by this [tweet](https://twitter.com/jerome_etienne/status/954390926209806336)
 
     IDEA: to pair 2 phones with webrtc, we could display a qrcode on one phone 
@@ -14,7 +11,11 @@ It would be nice if say 2 persons in the same room could play a game.
 
 So i did this proof of concept.
 
-# Implementation
+Here is the repository [github.com/jeromeetienne/networked-qrcode-pairing](https://github.com/jeromeetienne/networked-qrcode-pairing) repository on github
+
+Here is a running [example with glitch](https://same-magazine.glitch.me/my-example.html)
+
+# Principles
 It is all done within the browser. So we leverage the url. The principles are simple:
 
 - If the url of the page contains ```?roomName=fooBar```, then it will join the room fooBar.
@@ -22,7 +23,7 @@ It is all done within the browser. So we leverage the url. The principles are si
 player to join and we create a new room with a random roomName.
 Other players will have to scan his qrCode to join his room.
 
-# How it is coded ?
+# Implementation Details
 The implementation is quite straight forward. It is just an assembly of the proper
 piece of software.
 
@@ -35,7 +36,9 @@ It is a very nice project done by the excelent [@HaydenLee37](https://twitter.co
 
 It is the [Getting Started example from networked-aframe](https://github.com/networked-aframe/networked-aframe#getting-started).
 Then i just added qrcode generated from [jquery.qrcode](https://github.com/jeromeetienne/jquery-qrcode).
+Then i deployed it on [glitch](https://glitch.com/~same-magazine).
 
+It went rather smoothly.
 
 
 # How to use the demo
@@ -52,6 +55,7 @@ npm start
 ```
 
 # Deploy on glitch
+
 
 # Issue with AR 
 For this sharing mechanism to work, 
