@@ -11,9 +11,9 @@ It would be nice if say 2 persons in the same room could play a game.
 
 So i did this proof of concept.
 
-Here is the repository [github.com/jeromeetienne/networked-qrcode-pairing](https://github.com/jeromeetienne/networked-qrcode-pairing) repository on github
+Here is the repository [networked-qrcode-pairing](https://github.com/jeromeetienne/networked-qrcode-pairing) repository on github
 
-Here is a running [example with glitch](https://same-magazine.glitch.me/my-example.html)
+Here is a running [example on glitch](https://networked-qrcode-pairing.glitch.me/)
 
 # Principles
 It is all done within the browser. So we leverage the url. The principles are simple:
